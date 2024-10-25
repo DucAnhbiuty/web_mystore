@@ -1,0 +1,11 @@
+{
+    "tailwindCSS.emmetCompletions": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.suggest.autoTrigger": "on"
+}
