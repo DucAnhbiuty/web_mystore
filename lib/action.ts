@@ -1,3 +1,4 @@
-export const getCollections = async()=>{
-    const collections = await fetch("https://localhost:3000/api/collections")
-}
+export const getCollections = async () => {
+    const collections = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/collections`)
+    return await collections.json()
+  }
