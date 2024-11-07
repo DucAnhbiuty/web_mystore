@@ -8,6 +8,7 @@ import { useState } from "react";
 
 const Navbar = () => {
     const { user } = useUser();
+    //tiếp tục phút 6:16:00
     const [dropdownMenu, setDropdownMenu] = useState(false);
 
     return (
